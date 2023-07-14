@@ -15,5 +15,6 @@ Step 3: In Github Desktop, Open our project in Visual Studio Code
 Step 4: Make Changes The Source Code
 Step 5: On Github Desktop, Add a Commit Title and Description
 Step 6: Select "Commit to main"
+Step 7: Select "Push to origin"
 
 **If Any Changes Were Made In Github, On Github Desktop Select "Fetch Origin"**
