@@ -808,6 +808,10 @@ img {
   transform: translateX(.25rem);
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 .services__modal {
   position: fixed;
   top: 0;
@@ -825,6 +829,7 @@ img {
   visibility: hidden;
 
   transition: .3s;
+  overflow: scroll;
 }
 
 .services__modal-content {
@@ -832,6 +837,9 @@ img {
   background-color: var(--container-color);
   padding: 1.5rem;
   border-radius: .5rem;
+  overflow-y: auto;
+  height: 500px;
+
 }
 
 .services__modal-services {
@@ -1435,7 +1443,7 @@ img {
   }
 
   .services__modal-content {
-    width: 450px;
+    width: 600px;
   }
 
   .portfolio__img {
